@@ -6,11 +6,11 @@ export function fetchPets() {
   ];
   return {
     type: 'FETCH_PETS',
-    pets
+    pets,
   };
 }
 
-export function addPet(pet){
+export function addPet(pet) {
   return {
     type: 'ADD_PET',
     pet
